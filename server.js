@@ -1,10 +1,10 @@
 'use strict'
 const cors = require('cors');
-const professionalRoutes = require('./profesional/profesional.routes.js');
-const recommendationRoutes = require('./recommendation/recommendation.routes.js');
-const treatmentRoutes = require('./treatment/treatment.routes.js');
-const adminRoutes = require('./admin/admin.routes.js');
-const userRoutes = require('./user/user.routes.js');
+const professionalRoutes = require('./profesional/profesional.routes');
+const recommendationRoutes = require('./recommendation/recommendation.routes');
+const treatmentRoutes = require('./treatment/treatment.routes');
+const adminRoutes = require('./admin/admin.routes');
+const userRoutes = require('./user/user.routes');
 
 const express = require('express');
 const propierties = require('./config/properties');

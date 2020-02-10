@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-const professionalSchema = require('./profesional.model.js');
+const professionalSchema = require('./profesional.model');
 
 professionalSchema.statics = {
   create: function (data, cb) {

@@ -1,4 +1,4 @@
-const User = require('./admin.dao.js');
+const User = require('./user.dao');
 
 
 exports.createUser = (req, res, next) => {

@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-const recommendationSchema = require('./recommendation.model.js');
+const recommendationSchema = require('./recommendation.model');
 
 recommendationSchema.statics = {
   create: function (data, cb) {

@@ -1,4 +1,4 @@
-const Users = require('./user.controller.js');
+const Users = require('./user.controller');
 
 module.exports = (router) => {
   router.post('/register',  Users.createUser);

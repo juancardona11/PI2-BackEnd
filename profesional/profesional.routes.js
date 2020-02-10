@@ -1,4 +1,4 @@
-const Professional = require('./profesional.controller.js');
+const Professional = require('./profesional.controller');
 
 
 module.exports = (router) => {

@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-const adminSchema = require('./admin.model.js');
+const adminSchema = require('./admin.model');
 
 adminSchema.statics = {
   create: function (data, cb) {

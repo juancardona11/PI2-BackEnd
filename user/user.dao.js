@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-const userSchema = require('./user.model.js');
+const userSchema = require('./user.model');
 
 userSchema.statics = {
   create: function (data, cb) {

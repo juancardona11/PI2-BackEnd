@@ -1,4 +1,4 @@
-const Treatment = require('./treatment.dao.js');
+const Treatment = require('./treatment.dao');
 
 
 exports.createTreatment = (req, res, next) => {

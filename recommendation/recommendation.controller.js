@@ -1,4 +1,4 @@
-const Recommendation = require('./recommendation.dao.js');
+const Recommendation = require('./recommendation.dao');
 
 
 exports.createRecommendation = (req, res, next) => {

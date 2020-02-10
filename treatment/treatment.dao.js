@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-const treatmentSchema = require('./treatment.model.js');
+const treatmentSchema = require('./treatment.model');
 
 treatmentSchema.statics = {
   create: function (data, cb) {

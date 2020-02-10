@@ -1,18 +1,11 @@
-const User = require('./auth.dao');
+const User = require('./admin.dao');
 
 
 exports.createUser = (req, res, next) => {
   const newUser = {
     userName: req.body.userName,
     password: req.body.password,
-    pin: req.body.pin,
-    specialization: req.body.specialization,
-    qualification: req.body.qualification,
-    city: req.body.city,
-    eps: req.body.eps,
-    university: req.body.university,
-    experience: req.body.experience,
-    state: req.body.state,
+    email: req.body.email,
   }
 
   User.create(newUser, (err, user) => {
